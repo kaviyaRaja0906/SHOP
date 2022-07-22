@@ -1,0 +1,137 @@
+body{
+    font-family: 'Arima',cursive;
+}
+
+.banner{
+    height: 20px;
+    color: #fff;
+    background-color: #c36B84;
+    font-family: 'Arima',cursive;
+}
+.left{
+    text-align: left;
+    padding-left: 3%;
+}
+.right{
+    text-align: right;
+    padding-left: 20%;
+}
+.ban-text{
+    height: 2px;
+    display: inline;
+}
+.menu{
+    float: right;
+}
+.menu-1{
+    float: right;
+}
+li{
+    text-decoration: none;
+    display: inline;
+    padding-left: 30px;
+    margin-top: 10px;
+
+}
+.row{
+    padding-top: 10px;
+    font-size: 1rem;
+}
+
+.products{
+      display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.product-card {
+    width: 380px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 30px auto;
+    background: #fafafa;
+    font-family: 'Arima',cursive;
+    font-weight: 300;
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 20px;
+    background: #fff;
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-details {
+    padding: 30px;
+    justify-content: left;
+
+}
+
+.product-category {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 18px;
+}
+
+.product-details h5 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+h5 a:hover {
+    color: #4fa3a5;
+}
+
+.product-bottom-details {
+    border-top: 2px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+.product-btn{
+    border-radius: 20px;
+    background-color: #4FA3A5;
+    border: transparent;
+    color: #fff;
+    width: 160px;
+    height: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+.Footer{
+    text-align: center;
+    font-family: 'Arima',cursive;
+    color: #363636;
+}
+.social{
+    display: inline;
+    padding-right: 40px;
+    height: 30px;
+    color: #363636;
+}
